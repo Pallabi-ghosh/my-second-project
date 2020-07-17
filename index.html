@@ -1,9 +1,35 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="text.css">
+</head>
 
 <body>
-    <p>
-        Hello cph!
-    </p>
+
+    <div id="adam">
+    </div>
+
+    <header>
+        <h1>Find your class-mates</h1>
+    </header>
+    <form>
+        <div class="main-header">
+            <label for="uname">Write friend name </label>
+            <input id="fullname" placeholder="full name" onkeyup="lettersOnly(this)">
+            <br>
+            <br>
+            <label for="selectclass">Write the class </label>
+            <input type="text" id="selectclass" name="classname" placeholder="">
+            <br>
+            <br>
+            <button id="btn">Submit</button>
+        </div>
+    </form>
+
+
+    <script src="text.js"></script>
 </body>
 
 </html>

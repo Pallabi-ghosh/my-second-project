@@ -1,0 +1,46 @@
+body {
+    font-family: Space Mono, monospace;
+    background-image: url('Untitled_Artwork\ 49.png');
+    background-position: initial;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    animation: walk-east 8.0s steps(8000) infinite;
+}
+
+
+/* @keyframes walk-east {
+    from {
+        background-position: right center;
+    }
+    to {
+        background-position: left center;
+    }
+} */
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.main-header {
+    padding: 12px;
+    margin: 24px auto;
+    width: calc(100% - 24%);
+    max-width: 40%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0 rgba(57, 55, 56, .15);
+    text-align: center;
+}
+
+#btn {
+    background-color: rgb(12, 112, 3);
+    color: #fff;
+}
